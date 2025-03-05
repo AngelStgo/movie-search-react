@@ -1,0 +1,16 @@
+:root {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(193, 206, 206, 0.72);
+    color: rgb(38, 80, 82);
+}
+
+.App {
+    /* border: 1px solid  rgba(38, 80, 82, 0.555); */
+    padding:2rem;
+    border-radius: 6px;
+    background-color: rgba(12, 38, 39, 0.286);
+    color: rgba(0, 0, 0, 0.695);
+    box-shadow: 5px 5px 5px  rgba(38, 80, 82, 0.676);
+}

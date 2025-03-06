@@ -20,7 +20,7 @@ export default function App() {
   const getMovie = async(searchTerm) => {
     try {
       const response = await fetch(
-        `http://www.omdbapi.com/?apikey=${apiKey}&t=${searchTerm}`
+        `https://www.omdbapi.com/?apikey=${apiKey}&t=${searchTerm}` //*https instead of http
       );
       const data = await response.json();
       setMovie(data);
